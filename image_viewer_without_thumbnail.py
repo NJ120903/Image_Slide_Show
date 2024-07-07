@@ -7,7 +7,7 @@ import itertools
 class CyberImageViewer:
     def __init__(self, root):
         self.root = root
-        self.root.title("Cyber Image Viewer")
+        self.root.title("Image Viewer")
         self.root.configure(bg='black')
         
         self.image_label = tk.Label(root, bg='black')
